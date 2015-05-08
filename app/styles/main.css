@@ -2,9 +2,12 @@
   width:100%;
   height:800px;
   margin-right:-15px;
+  padding-top:50px;
 }
 .navbar{
   margin-bottom:0;
+  border-radius:0;
+  z-index: 100000;
 }
 .browserupgrade {
   margin: 0.2em 0;
@@ -15,6 +18,7 @@
 
 /* Space out content a bit */
 body {
+  background:#000;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
