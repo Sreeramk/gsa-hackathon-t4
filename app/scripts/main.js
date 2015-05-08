@@ -1,3 +1,3 @@
 window.onload = function() {
-  cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json');
+  cartodb.createVis('map', 'https://julietsabol.cartodb.com/api/v2/viz/e323dca6-f5b2-11e4-9869-0e4fddd5de28/viz.json');
 }

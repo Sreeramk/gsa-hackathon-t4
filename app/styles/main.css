@@ -1,8 +1,11 @@
 #map{
   width:100%;
   height:800px;
+  margin-right:-15px;
 }
-
+.navbar{
+  margin-bottom:0;
+}
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -12,8 +15,6 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
