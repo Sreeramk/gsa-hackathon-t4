@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>gsa hackathon t4</title>
+    <title>PBS Tenant Satisfaction</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
-	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.14/themes/css/cartodb.css" />
+  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.14/themes/css/cartodb.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -27,37 +27,23 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul role="tablist" class="nav nav-tabs pull-right">
+          <li class="active" data-toggle="tab" ><a href="#map">Map</a></li>
+          <li><a href="#chart" data-toggle="tab">Chart</a></li>
         </ul>
-        <h3 class="text-muted">gsa hackathon t4</h3>
+        <h3 class="text-muted">PBS Tenant Satisfaction</h3>
       </div>
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="map"></div>
+      <div id="chart"></div>
+    </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-
-        </div>
-      </div>
 
       <div class="footer">
-        <p>♥ from the Yeoman team</p>
+        <p>♥ from Team 3</p>
       </div>
     </div>
 
@@ -74,7 +60,7 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-	<script src="/bower_components/d3/d3.js"></script>
+  <script src="/bower_components/d3/d3.js"></script>
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.14/cartodb.js"></script>
 
     <!-- endbower -->
