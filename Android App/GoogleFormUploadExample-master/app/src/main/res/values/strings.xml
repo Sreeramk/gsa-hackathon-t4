@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Report Issues</string>
+    <string name="menu_settings">Settings</string>
+    <string name="sensor_value_hint">Enter General Issue Details </string>
+    <string name="AC_value_hint">Enter AC/Heating Issue</string>
+    <string name="WC_value_hint">Enter Bathroom Issue</string>
+    <string name="check_text">See Issues for your building</string>
+    <string name="button_text">Send to Form</string>
+</resources>
